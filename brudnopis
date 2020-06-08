@@ -1,0 +1,36 @@
+// form validator at clinic hunter - to improve:
+
+
+//         const updatedControls: {[key: string]: FormControlConfig}[] = formControls;
+//         let updatedFormElement = updatedControls.find(control => control[name]);
+//    if(updatedFormElement) {
+//        const updatedFormControl = updatedFormElement[name];
+//        updatedFormControl.errorMessages = validators.validateMessage(value, updatedFormControl.validationRules);
+//        updatedFormControl.value = value;
+//         updatedFormControl.touched = true;
+//         updatedFormControl.valid = validators.validateFormControl(value, updatedFormControl.validationRules);
+//        if(updatedFormControl.valid) {
+//            let newInquiryFormField: any = {};
+//            newInquiryFormField[name] = updatedFormControl.value;
+//            store.dispatch(changeInquiryForm(newInquiryFormField));
+//        } else {
+//                        if (globalState.axaInsurance.inquiryForm[name] === null) {
+//                            return;
+//                        }
+//                        store.dispatch(resetFormField(name));
+//                    }
+//    }
+//         console.log(updatedFormElement, 'shshwsihwiwshwsihwsws');
+// //         updatedFormElement.value = value;
+// //         updatedFormElement.touched = true;
+// //         updatedFormElement.valid = validators.validateMessage(value, updatedFormElement.validationRules);
+// // console.log(updatedControls, 'updated controls');
+// //         updatedControls[name] = updatedFormElement;
+//
+//         let formIsValid = true;
+//         const flattenedUpdatedControls = updatedControls.concat();
+//         // flattenUpdatedControls.forEach(control => console.log(control[name], 'flatten control') );
+//         for (let inputIdentifier in flattenedUpdatedControls) {
+//             formIsValid = Object.values(updatedControls[inputIdentifier])[0].valid && formIsValid;
+//         }
+
